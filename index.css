@@ -280,6 +280,7 @@ main {
 /* Styles for the front side of the card. */
 .card-front {
 	color: #11222d;
+	background-color: #ccffcc;
 	/* Additional styles here (e.g., background-color: #bbccdd;) */
 }
 
