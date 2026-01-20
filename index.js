@@ -100,6 +100,7 @@ function renderCard() {
 
 	// Wait for the back side to become invisible before updating the content on the back side
 	setTimeout(() => {
+		document.getElementById("card-back-word").textContent = currentCard.word;
 		document.getElementById("card-back-pos").textContent = posMapping[currentCard.pos] ?? currentCard.pos;
 		document.getElementById("card-back-definition").textContent = currentCard.definition;
 		document.getElementById("card-back-image").src = currentCard.image;
